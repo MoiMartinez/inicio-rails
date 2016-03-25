@@ -39,6 +39,9 @@ gem 'masonry-rails', '~> 0.2.4'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
+group :production do 
+	gem 'pg','0.15.1'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

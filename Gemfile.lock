@@ -114,6 +114,7 @@ GEM
       mime-types
     paperclip-ghostscript (0.1.0)
       paperclip
+    pg (0.15.1-x86-mingw32)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -206,6 +207,7 @@ DEPENDENCIES
   mysql2 (~> 0.3.20)
   paperclip (~> 4.2.0)
   paperclip-ghostscript (~> 0.1.0)
+  pg (= 0.15.1)
   rails (= 4.2.6)
   rails_12factor
   sass-rails (~> 5.0)
